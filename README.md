@@ -4,5 +4,6 @@
 This was my first ever JavaScript project using: 
 - HTML
 - CSS
+- Media Query
 - JavaScript
 - API
