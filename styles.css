@@ -1,0 +1,69 @@
+body {
+  background-color: bisque;
+}
+
+button {
+  padding: 25px;
+  margin-left: 35%;
+  font-size: 35px;
+  color: rgb(13, 34, 34);
+  background-color: darkgray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: darkcyan;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(160, 108, 19);
+}
+
+h1:hover {
+  color: black;
+}
+
+div {
+  color: blue;
+  font-size: 30px;
+}
+
+.api-body {
+  margin-top: 5%;
+  color: black;
+  text-align: left;
+  padding-left: 2%;
+}
+
+strong {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+em {
+  color: red;
+  /* This will change the text 'loading' to red */
+}
+
+@media (max-width: 600px) {
+  button {
+    font-size: 18px;
+    margin-left: 20%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+
+  .api-body {
+    margin-top: 7%;
+  }
+}
